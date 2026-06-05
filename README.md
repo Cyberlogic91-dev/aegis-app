@@ -25,7 +25,7 @@
 
 <p align="center">
   <img src="shots/shot-dashboard.jpg" width="190" alt="Tableau de bord" />
-  <img src="shots/shot-repondeur.jpg" width="190" alt="Répondeur IA" />
+  <img src="shots/shot-diagnostic.jpg" width="190" alt="Diagnostic" />
   <img src="shots/shot-blocage.jpg" width="190" alt="Liste noire" />
   <img src="shots/shot-reglages.jpg" width="190" alt="Réglages" />
 </p>
@@ -33,7 +33,7 @@
 ## ✨ Fonctionnalités
 
 - 🛡️ **Blocage en temps réel** — filtre les appels sans consommer de batterie en veille
-- 🤖 **Répondeur virtuel IA** — l'assistant décroche, transcrit, et vous pouvez reprendre l'appel
+- 📍 **Localisation de l'appel** — provenance géographique du numéro (région FR ou pays)
 - 👥 **Base communautaire** — numéros signalés partagés sous forme d'empreintes anonymes
 - 📵 **Préfixes ARCEP + Bloctel & 33700** — blocage réglementaire et signalement officiel
 
