@@ -6,12 +6,12 @@
 
 <p align="center">
   <b>Filtre d'appels intelligent</b><br/>
-  Bloque le démarchage et les arnaques téléphoniques · Assistant IA 100&nbsp;% embarqué · RGPD · Gratuit
+  Bloque le démarchage et les arnaques téléphoniques · Traitement 100&nbsp;% local · RGPD · Gratuit
 </p>
 
 <p align="center">
   <a href="https://cyberlogic91-dev.github.io/aegis-app/aegis.apk">
-    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.0.0--alpha5-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
+    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.0.0--alpha6-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
   </a>
 </p>
 
@@ -27,7 +27,6 @@
   <img src="shots/shot-dashboard.jpg" width="190" alt="Tableau de bord" />
   <img src="shots/shot-diagnostic.jpg" width="190" alt="Diagnostic" />
   <img src="shots/shot-blocage.jpg" width="190" alt="Liste noire" />
-  <img src="shots/shot-reglages.jpg" width="190" alt="Réglages" />
 </p>
 
 ## ✨ Fonctionnalités

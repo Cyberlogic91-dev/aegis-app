@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Aegis — Filtre d'appels intelligent</title>
-<meta name="description" content="Aegis bloque le démarchage et les arnaques téléphoniques. Assistant IA 100% embarqué, respect du RGPD. Gratuit." />
+<meta name="description" content="Aegis bloque le démarchage et les arnaques téléphoniques. Traitement 100% local, respect du RGPD. Gratuit." />
 <style>
   :root{
     --navy:#1A1A2E; --navy2:#0F1B3A; --blue:#00B4D8; --blue2:#0077B6;
@@ -54,7 +54,7 @@
   .card p{color:var(--muted);font-size:14.5px}
 
   /* SHOTS */
-  .shots{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:26px 0 10px}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:26px 0 10px;max-width:740px;margin-left:auto;margin-right:auto}
   @media(max-width:760px){.shots{grid-template-columns:repeat(2,1fr)}}
   .shot{display:flex;flex-direction:column;align-items:center;gap:10px}
   .shot img{width:100%;max-width:230px;border-radius:20px;border:1px solid rgba(255,255,255,.12);
@@ -81,19 +81,19 @@
       </svg>
       <div class="brand">AEGIS</div>
       <div class="tagline">Filtre d'appels intelligent</div>
-      <p class="sub">Bloque le démarchage et les arnaques téléphoniques. Assistant IA 100&nbsp;% embarqué, dans le respect du RGPD.</p>
+      <p class="sub">Bloque le démarchage et les arnaques téléphoniques. Traitement 100&nbsp;% local, dans le respect du RGPD.</p>
 
       <a class="cta" id="download" href="aegis.apk" download>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
         Télécharger l'application
       </a>
-      <div class="meta">APK&nbsp;v1.0.0-alpha5 · ~1,6&nbsp;Mo · Android&nbsp;8.0+ · Gratuit</div>
+      <div class="meta">APK&nbsp;v1.0.0-alpha6 · ~1,6&nbsp;Mo · Android&nbsp;8.0+ · Gratuit</div>
     </header>
 
     <!-- Compteurs animés -->
     <section class="counters" id="counters">
       <div class="stat"><div class="num" data-target="27">0</div><div class="lbl">Préfixes à risque bloqués</div></div>
-      <div class="stat"><div class="num" data-target="4">0</div><div class="lbl">Modes d'assistant IA</div></div>
+      <div class="stat"><div class="num" data-target="8">0</div><div class="lbl">Contrôles de sécurité</div></div>
       <div class="stat"><div class="num" data-target="100" data-suffix="%">0</div><div class="lbl">Traitement local (RGPD)</div></div>
       <div class="stat"><div class="num" data-target="0" data-suffix="€">0</div><div class="lbl">Coût d'utilisation</div></div>
     </section>
@@ -111,7 +111,6 @@
       <div class="shot"><img src="shots/shot-dashboard.jpg" alt="Tableau de bord Aegis" loading="lazy" /><span>Protection en temps réel</span></div>
       <div class="shot"><img src="shots/shot-diagnostic.jpg" alt="Diagnostic" loading="lazy" /><span>Diagnostic &amp; permissions</span></div>
       <div class="shot"><img src="shots/shot-blocage.jpg" alt="Liste noire" loading="lazy" /><span>Liste noire &amp; communauté</span></div>
-      <div class="shot"><img src="shots/shot-reglages.jpg" alt="Réglages de l'assistant" loading="lazy" /><span>Modes d'assistant IA</span></div>
     </section>
 
     <footer>
