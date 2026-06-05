@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aegis — Filtre d'appels intelligent</title>
+<meta name="description" content="Aegis bloque le démarchage et les arnaques téléphoniques. Assistant IA 100% embarqué, respect du RGPD. Gratuit." />
+<style>
+  :root{
+    --navy:#1A1A2E; --navy2:#0F1B3A; --blue:#00B4D8; --blue2:#0077B6;
+    --cyan:#2BD4EE; --green:#4CC882; --ink:#0b1020; --txt:#e9eef5; --muted:#9fb0c3;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--txt);background:radial-gradient(1200px 600px at 50% -10%,#22305a 0%,var(--navy) 45%,var(--ink) 100%);
+    min-height:100vh;-webkit-font-smoothing:antialiased;line-height:1.5;
+  }
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+
+  /* HERO */
+  header{text-align:center;padding:70px 0 30px}
+  .logo{width:104px;height:104px;filter:drop-shadow(0 10px 30px rgba(0,180,216,.35))}
+  .brand{font-size:clamp(40px,8vw,76px);font-weight:800;letter-spacing:.06em;margin-top:14px}
+  .tagline{color:var(--cyan);font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-size:clamp(12px,2.4vw,15px);margin-top:6px}
+  .sub{color:var(--muted);max-width:620px;margin:18px auto 0;font-size:clamp(15px,2.6vw,18px)}
+
+  /* CTA */
+  .cta{display:inline-flex;align-items:center;gap:12px;margin-top:30px;
+    background:linear-gradient(135deg,var(--cyan),var(--blue2));color:#04121f;font-weight:800;
+    font-size:19px;padding:16px 30px;border-radius:16px;text-decoration:none;
+    box-shadow:0 12px 34px rgba(0,180,216,.45);transition:transform .15s ease, box-shadow .15s ease}
+  .cta:hover{transform:translateY(-2px);box-shadow:0 18px 44px rgba(0,180,216,.6)}
+  .cta svg{width:22px;height:22px}
+  .meta{color:var(--muted);font-size:13px;margin-top:12px}
+
+  /* COUNTERS */
+  .counters{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:54px 0}
+  @media(max-width:680px){.counters{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;padding:24px 14px;text-align:center;backdrop-filter:blur(6px)}
+  .num{font-size:clamp(32px,6vw,46px);font-weight:800;
+    background:linear-gradient(120deg,var(--cyan),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lbl{color:var(--muted);font-size:13px;margin-top:6px;letter-spacing:.02em}
+
+  /* FEATURES */
+  h2{text-align:center;font-size:clamp(22px,4vw,30px);margin:30px 0 6px}
+  .features{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:26px 0 10px}
+  @media(max-width:680px){.features{grid-template-columns:1fr}}
+  .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:22px}
+  .card h3{font-size:18px;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  .dot{width:12px;height:12px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(76,200,130,.18)}
+  .card p{color:var(--muted);font-size:14.5px}
+
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:48px 0 60px;border-top:1px solid rgba(255,255,255,.07);margin-top:50px}
+  footer a{color:var(--cyan);text-decoration:none}
+  .badge{display:inline-block;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:5px 12px;margin:4px;font-size:12px;color:var(--txt)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <!-- Logo Aegis -->
+      <svg class="logo" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" aria-label="Aegis">
+        <defs><linearGradient id="g" x1="18" y1="14" x2="90" y2="98" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2BD4EE"/><stop offset="1" stop-color="#006EB4"/></linearGradient></defs>
+        <path d="M54,14L90,27L90,56C90,78 74,92 54,98C34,92 18,78 18,56L18,27Z" fill="url(#g)"/>
+        <path d="M54,14L90,27L90,56C90,78 74,92 54,98Z" fill="#00355F" opacity=".22"/>
+        <path d="M54,36L40,80M54,36L68,80" stroke="#F5FAFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M49,64L49,76M54,52L54,78M59,60L59,75" stroke="#4CC882" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+      </svg>
+      <div class="brand">AEGIS</div>
+      <div class="tagline">Filtre d'appels intelligent</div>
+      <p class="sub">Bloque le démarchage et les arnaques téléphoniques. Assistant IA 100&nbsp;% embarqué, dans le respect du RGPD.</p>
+
+      <a class="cta" id="download" href="aegis-1.0.0-alpha1.apk" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+        Télécharger l'application
+      </a>
+      <div class="meta">APK&nbsp;v1.0.0-alpha1 · ~1,6&nbsp;Mo · Android&nbsp;8.0+ · Gratuit</div>
+    </header>
+
+    <!-- Compteurs animés -->
+    <section class="counters" id="counters">
+      <div class="stat"><div class="num" data-target="27">0</div><div class="lbl">Préfixes à risque bloqués</div></div>
+      <div class="stat"><div class="num" data-target="4">0</div><div class="lbl">Modes d'assistant IA</div></div>
+      <div class="stat"><div class="num" data-target="100" data-suffix="%">0</div><div class="lbl">Traitement local (RGPD)</div></div>
+      <div class="stat"><div class="num" data-target="0" data-suffix="€">0</div><div class="lbl">Coût d'utilisation</div></div>
+    </section>
+
+    <h2>Une protection complète</h2>
+    <section class="features">
+      <div class="card"><h3><span class="dot"></span>Blocage en temps réel</h3><p>Filtre les appels via le service système, sans aucune consommation de batterie en veille.</p></div>
+      <div class="card"><h3><span class="dot"></span>Répondeur virtuel IA</h3><p>L'assistant décroche, transcrit l'appel, et vous pouvez reprendre la conversation à tout moment.</p></div>
+      <div class="card"><h3><span class="dot"></span>Base communautaire</h3><p>Synchronise les numéros signalés par la communauté — uniquement des empreintes anonymes.</p></div>
+      <div class="card"><h3><span class="dot"></span>Bloctel &amp; 33700</h3><p>Raccourcis intégrés vers les services officiels de signalement du démarchage abusif.</p></div>
+    </section>
+
+    <footer>
+      <div>
+        <span class="badge">100% on-device</span>
+        <span class="badge">RGPD by design</span>
+        <span class="badge">Préfixes ARCEP</span>
+        <span class="badge">Android 8.0+</span>
+      </div>
+      <p style="margin-top:16px">© 2026 <strong>Cyberlogic</strong> — Tous droits réservés · Licence gratuite à usage personnel (logiciel propriétaire)</p>
+      <p style="margin-top:4px"><a href="https://www.cyberlogic.fr" target="_blank" rel="noopener">www.cyberlogic.fr</a></p>
+    </footer>
+  </div>
+
+<script>
+  function runCounter(el){
+    const target = parseFloat(el.dataset.target);
+    const suffix = el.dataset.suffix || '';
+    const dur = 1400, t0 = performance.now();
+    function tick(now){
+      const p = Math.min((now - t0) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased) + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.querySelectorAll('.num').forEach(runCounter); obs.unobserve(e.target);} });
+  }, {threshold:.4});
+  obs.observe(document.getElementById('counters'));
+</script>
+</body>
+</html>
