@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://cyberlogic91-dev.github.io/aegis-app/aegis.apk">
-    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.1.3-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
+    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.1.4-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
   </a>
 </p>
 
@@ -38,7 +38,7 @@
 - 👥 **Base communautaire** — 930+ numéros malveillants référencés, synchronisés via une jauge animée (empreintes SHA-256 anonymes)
 - 🎓 **Tutoriel interactif** — présentation guidée au premier lancement, rejouable depuis les réglages
 - 🔄 **Mises à jour automatiques** — vérifie GitHub et propose d'installer la nouvelle version en un geste
-- 🔔 **Aegis s'ouvre pendant l'appel** — fiche d'identification affichée par-dessus l'écran d'appel entrant
+- 🗺️ **Fiche complète à l'appel** — opérateur (ARCEP), type de ligne, E.164, risque et origine sur une carte de France, dès l'arrivée de l'appel
 - 📵 **Préfixes ARCEP + Bloctel & 33700** — blocage réglementaire et signalement officiel
 
 ---
