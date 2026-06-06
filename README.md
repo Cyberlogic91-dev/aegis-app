@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://cyberlogic91-dev.github.io/aegis-app/aegis.apk">
-    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.0.0--alpha6-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
+    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.0.0--alpha7-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
   </a>
 </p>
 
@@ -33,6 +33,7 @@
 
 - 🛡️ **Blocage en temps réel** — filtre les appels sans consommer de batterie en veille
 - 📍 **Localisation de l'appel** — provenance géographique du numéro (région FR ou pays)
+- 👤 **Identification des contacts** — affiche le nom du contact ; vos contacts ne sont jamais bloqués
 - 👥 **Base communautaire** — numéros signalés partagés sous forme d'empreintes anonymes
 - 📵 **Préfixes ARCEP + Bloctel & 33700** — blocage réglementaire et signalement officiel
 
