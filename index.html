@@ -62,6 +62,15 @@
   .shot img:hover{transform:translateY(-5px) scale(1.02)}
   .shot span{color:var(--muted);font-size:13px;text-align:center}
 
+  /* FAQ */
+  .faq{max-width:760px;margin:18px auto 0}
+  .faq details{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+  .faq summary{cursor:pointer;font-weight:600;font-size:15.5px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--cyan);font-size:20px;margin-left:12px}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{color:var(--muted);font-size:14px;margin-top:10px}
+
   footer{text-align:center;color:var(--muted);font-size:13px;padding:48px 0 60px;border-top:1px solid rgba(255,255,255,.07);margin-top:50px}
   footer a{color:var(--cyan);text-decoration:none}
   .badge{display:inline-block;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:5px 12px;margin:4px;font-size:12px;color:var(--txt)}
@@ -87,7 +96,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
         Télécharger l'application
       </a>
-      <div class="meta">APK&nbsp;v1.0.0-alpha7 · ~1,6&nbsp;Mo · Android&nbsp;8.0+ · Gratuit</div>
+      <div class="meta">APK&nbsp;v1.0.0 · ~1,6&nbsp;Mo · Android&nbsp;8.0+ · Gratuit</div>
     </header>
 
     <!-- Compteurs animés -->
@@ -112,6 +121,16 @@
       <div class="shot"><img src="shots/shot-dashboard.jpg" alt="Tableau de bord Aegis" loading="lazy" /><span>Protection en temps réel</span></div>
       <div class="shot"><img src="shots/shot-diagnostic.jpg" alt="Diagnostic" loading="lazy" /><span>Diagnostic &amp; permissions</span></div>
       <div class="shot"><img src="shots/shot-blocage.jpg" alt="Liste noire" loading="lazy" /><span>Liste noire &amp; communauté</span></div>
+    </section>
+
+    <h2 id="aide">Aide &amp; questions fréquentes</h2>
+    <section class="faq">
+      <details><summary>Comment installer Aegis ?</summary><p>Touchez le bouton « Télécharger l'application ». Si Android le demande, autorisez l'installation depuis le navigateur (Paramètres → Applications → Accès spécifique → Installer des applications inconnues), puis ouvrez le fichier téléchargé.</p></details>
+      <details><summary>Comment activer la protection ?</summary><p>Ouvrez Aegis, touchez « Activer la protection » sur le tableau de bord (ou Réglages → Diagnostic → « Corriger »), et choisissez Aegis comme application de filtrage d'appels. Le tableau de bord passe alors au vert « Protection active ».</p></details>
+      <details><summary>Mes contacts peuvent-ils être bloqués ?</summary><p>Non, jamais. Tout numéro de votre répertoire est automatiquement en liste blanche, et son nom s'affiche à la place du numéro.</p></details>
+      <details><summary>Quels numéros Aegis bloque-t-il ?</summary><p>Les préfixes de démarchage de l'ARCEP, les numéros surtaxés, votre liste noire personnelle, et les numéros signalés par la communauté.</p></details>
+      <details><summary>Aegis lit-il mes données personnelles ?</summary><p>Non. Les numéros sont traités en local sous forme d'empreintes anonymes (SHA-256). Aucun numéro, contact ou enregistrement vocal n'est copié ou envoyé. L'application est conçue RGPD by design.</p></details>
+      <details><summary>Pourquoi pas de localisation GPS de l'appelant ?</summary><p>Android n'autorise aucune application à connaître la position réelle d'un appelant. Aegis affiche la provenance déduite du numéro (région française ou pays), et propose une visualisation indicative du routage.</p></details>
     </section>
 
     <footer>
