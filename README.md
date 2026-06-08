@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://cyberlogic91-dev.github.io/aegis-app/aegis.apk">
-    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.7.0-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
+    <img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20l'APK-1.7.1-00B4D8?style=for-the-badge&logo=android&logoColor=white" alt="Télécharger l'APK" />
   </a>
 </p>
 
